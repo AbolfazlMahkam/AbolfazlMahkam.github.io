@@ -5,7 +5,7 @@
 }
 @font-face{
    font-family: '12';
-   src: url('fonts/BOD_BLAR_0.TTF'); /* IE9 Compat Modes */
+   src: url('BOD_BLAR_0.TTF'); /* IE9 Compat Modes */
 }
 .container{
    width: 100%;
@@ -15,7 +15,7 @@
    align-items: center;
 }
 body{
-   background-image: url(images/56.jpg);
+   background-image: url(windows-10-orange-stock.jpg);
    background-size: cover;
    background-position: center;
    height: 100vh;
