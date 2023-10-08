@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Live Watch</title>
+      <link rel="stylesheet" href="assets/style.css">
+      <!--<script src="assets/script.js"></script>-->
+   </head>
+   <body>
+      <div class="container">
+         <div class="clock">
+            <div class="numbers">
+               <div class="twelve">12</div>
+               <div class="three">3</div>
+               <div class="six">6</div>
+               <div class="nine">9</div>
+            </div>
+            <div class="arrows">
+               <div class="hour"></div>
+               <div class="minute"></div>
+               <div class="second"></div>
+            </div>
+         </div>
+      </div>
+      <script>
+         const hour = document.querySelector("hour");
+         const minute = document.querySelector("minute");
+         const second = document.querySelector("second");
 
+         function setDate() { 
+            const now = new Date();
+            const getSecond = now.getSeconds();
+            const getMinute = now.getMinutes();
+            const getHour = now.getHours();
+
+            const secondDegree = (getSecond / 60) *360;
+            const minuteDegree = (getMinute / 60) * 360;
+            const hourDegree = (getHour / 60) * 360;
+
+            second.style.transform = `rotate(${secondDegree}deg)`;
+            minute.style.transform = `rotate(${minuteDegree}deg)`;
+            hour.style.transform = `rotate(${hourDegree}deg)`;
+         }
+
+         setInterval(setDate, 1000);
+      </script>
+   </body>
+</html>
