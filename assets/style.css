@@ -77,9 +77,20 @@ a{
   border-radius: 5px;
   margin-bottom: 15.5px;
 }
+a:hover{
+  height: 60px;
+  font-size: 27.5px;
+}
+a:hover .bdl{
+  margin-top: 3px;
+  width: 30px;
+}
+a:hover span{
+  /*font-size: 30px;*/
+}
 .botton:hover{
-  background-color: #f4f7fe;
-  color: #A3AED0;
+  background-color: #dde1ec;
+  color: #99a4c7;
 }
 span{
   margin-left: 14px;
