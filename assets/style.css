@@ -2,7 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "12";
+  font-family: DMSans;
+  vertical-align: middle;
+  transition: 0.5s;
+  transition-delay: 0.15s;
+}
+@font-face {
+  font-family: DMSans-R;
+  src: url(font/DMSans-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: DMSans-M;
+  src: url(font/DMSans-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: DMSans-B;
+  src: url(font/DMSans-Bold.ttf);
+  font-style: normal;
+}
+body{
+  background-color: #f4f7fe;
 }
 div{
   display: block;
@@ -13,21 +35,23 @@ div{
   width: 100%;
   height: 500px;
   margin-left: 320px;
-  background-color: #eee;
+  
 }
 .sidebar{
   background-color: #fff;
   width: 320px;
-  height: 500px;
+  height: 100%;
   float: left;
   left: 0;
   position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .logo{
   height: 48px;
   margin-top: 50px;
   margin-left: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 .logo:hover{
   height: 55px;
@@ -37,4 +61,49 @@ div{
 .logo::after{
   transition: 0.5s;
   transition-delay: 0.1s;
+}
+.dashboard{
+  box-sizing: border-box;
+  border-top: 1px solid #f4f7fe; 
+  padding: 27px 41px 41px 41px;
+  margin-bottom: 20px;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  display: block;
+  height: 48px;
+  padding: 12px 11px;
+  border-radius: 5px;
+  margin-bottom: 15.5px;
+}
+.botton:hover{
+  background-color: #f4f7fe;
+  color: #A3AED0;
+}
+span{
+  margin-left: 14px;
+  font-family: DMSans-M;
+  font-size: 17px;
+  color: #A3AED0;
+  line-height: 1.42857143;
+}
+.b-dashboard{
+  background-color: #4318ff;
+}
+.b-dashboard:hover{
+  background-color: #2d11a8;
+}
+.bds{
+  color: #fff;
+}
+.bdl{
+  width: 24px;
+  float: left;
+}
+.logout{
+  padding: 10px 20px 20px;
+}
+.logout a{
+  margin: 0;
 }
