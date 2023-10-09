@@ -6,6 +6,9 @@
 @font-face{
    
 }
+div{
+   display: block;
+}
 .body{
    right: 0;
    float: right;
@@ -14,6 +17,7 @@
 }
 .sidebar{
    width: 320px;
+   height: 100%;
    float: left;
    left: 0;
 }
