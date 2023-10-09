@@ -7,7 +7,13 @@
    
 }
 .body{
-   background-color: red;
+   right: 0;
+   float: right;
    width: 200px;
    height: 200px;
+}
+.sidebar{
+   width: 320px;
+   float: left;
+   left: 0;
 }
