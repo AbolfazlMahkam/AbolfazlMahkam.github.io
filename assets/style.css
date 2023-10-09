@@ -85,9 +85,6 @@ a:hover .bdl{
   margin-top: 3px;
   width: 30px;
 }
-a:hover span{
-  /*font-size: 30px;*/
-}
 .botton:hover{
   background-color: #dde1ec;
   color: #99a4c7;
