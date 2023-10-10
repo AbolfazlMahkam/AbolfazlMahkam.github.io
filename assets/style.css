@@ -29,13 +29,15 @@ body{
 div{
   display: block;
 }
-.body{
+.content{
   right: 0;
   float: right;
-  width: 100%;
-  height: 500px;
-  margin-left: 320px;
-  
+  margin-left: 322px;
+  min-width: 1039px;
+  min-height: 1000px;
+  padding: 20px 15px;
+  display: block;
+  overflow-wrap: break-word
 }
 .sidebar{
   background-color: #fff;
@@ -75,7 +77,7 @@ a{
   height: 48px;
   padding: 12px 11px;
   border-radius: 5px;
-  margin-bottom: 15.5px;
+  margin-bottom: 15.2px;
 }
 a:hover{
   height: 60px;
@@ -114,4 +116,60 @@ span{
 }
 .logout a{
   margin: 0;
+}
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4318ff;
+}
+.header{
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.welcome{
+  float: left;
+}
+.hi{
+  font-family: DMSans-B;
+  color: #707EAE;
+  font-size: 15px;
+  margin-left: 12px;
+}
+h1{
+  font-family: DMSans-B;
+  color: #2B3674;
+  font-size: 36px;
+  margin-left: 12px;
+  margin-top: 2px;
+}
+.searchbox{
+  padding: 0 10px;
+}
+.searchform{
+  background-color: #fff;
+  float: right;
+  width: 400px;
+  height: 50px;
+  padding: 15px 44px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.search{
+  font-family: DMSans-R;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  margin-left: 9px;
+}
+.searchicon{
+  margin-top: 2px;
 }
