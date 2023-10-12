@@ -27,6 +27,7 @@ body{
   background-color: #f4f7fe;
 }
 div{
+  margin: 0;
   display: block;
 }
 .content{
@@ -59,6 +60,7 @@ div{
   height: 55px;
   transition: 0.5s;
   transition-delay: 0.1s;
+  cursor: pointer;
 }
 .logo::after{
   transition: 0.5s;
@@ -132,7 +134,9 @@ span{
 }
 .header{
   margin-top: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 32.5px;
+  display: block;
+  height: 70px;
 }
 .welcome{
   float: left;
@@ -172,4 +176,55 @@ h1{
 }
 .searchicon{
   margin-top: 2px;
+}
+.info{
+  width: 1009px;
+  margin: 0;
+  display: inline;
+}
+.infoform{
+  padding-left: 12px;
+  padding-right: 4px;
+  width: 232px;
+  display: inline;
+}
+.infobox{
+  background-color: #fff;
+  height: 100px;
+  width: 232px;
+  padding: 22px 22px;
+  margin: 0;
+  right: 0;
+  border-radius: 20px;
+  display: inline-block;
+}
+.infobox:hover {
+  box-shadow: 4px 4px 9px 0px #dee7fd;
+  cursor: pointer;
+}
+.infobox h1{
+  font-size: 26px;
+  margin: 0;
+}
+.infobox span{
+  font-family: DMSans-R;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 1px;
+}
+.infobox img{
+  float: left;
+  background-color: #F4F7FE;
+  padding: 12px;
+  margin-right: 18px;
+  border-radius: 50%;
+}
+.cl,.activ{
+  background: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
+}
+.activ h1{
+  color: #fff;
+}
+.activ span{
+  color: #fff;
 }
