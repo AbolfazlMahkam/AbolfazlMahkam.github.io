@@ -179,13 +179,16 @@ h1{
 }
 .info{
   width: 1009px;
+  height: 100px;
   margin: 0;
   display: inline;
+  margin-bottom: 20ppx;
 }
 .infoform{
   padding-left: 12px;
   padding-right: 4px;
   width: 232px;
+  height: 100px;
   display: inline;
 }
 .infobox{
@@ -227,4 +230,110 @@ h1{
 }
 .activ span{
   color: #fff;
+}
+.cardbox{
+  width: 100%;
+  padding: 16px 12px;
+  display: inline-block;
+  margin-top: 4px;
+}
+.card{
+  margin-right: 16px;
+  width: 651px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  display: inline-block;
+}
+.cardinfo{
+  width: 247px;
+  padding: 0 10px;
+  padding-top: 20px;
+  display: inline-block;
+}
+.cardinfo h1{
+  font-size: 34px;
+  margin: 0;
+  line-height: 48px;
+}
+.cardinfo span{
+  font-size: 16px;
+  margin: 0;
+  margin: 20px 0;
+  display: block;
+  line-height: 30px;
+}
+.cardinfo button{
+  color: #fff;
+  font-family: DMSans-R;
+  width: 173px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #4318FF;
+  border: none;
+  cursor: pointer;
+}
+.cardinfo button:hover{
+  font-size: 15px;
+  transition: 1s;
+  box-shadow: 3px 3px 3px #707EAE;
+}
+.div-ci{
+  padding-right: 10px;
+  float: right;
+  width: 100px;
+  display: inline-block;
+}
+.cardimg{
+  float: right;
+  display: inline-block;
+}
+.ctrl{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  display: inline-block;
+  width: 314px;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.div-cti{
+  display: block;
+}
+.ctrlimg{
+  display: block;
+  margin-bottom: 15px;
+}
+.ctrlinfo{
+  width: 230px;
+  display: block;
+}
+.ctrlinfo button{
+  color: #fff;
+  font-family: DMSans-R;
+  width: 173px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #4318FF;
+  border: none;
+  cursor: pointer;
+  margin-top: 31px;
+  width: 235px;
+}
+.ctrlinfo button:hover{
+  font-size: 15px;
+  transition: 1s;
+  box-shadow: 3px 3px 3px #707EAE;
+}
+.ctrlinfo h1{
+  font-size: 28px;
+  margin: 0;
+  line-height: 40px;
+}
+.ctrlinfo span{
+  display: inline-block;
+  margin: 0;
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: DMSans-R;
 }
