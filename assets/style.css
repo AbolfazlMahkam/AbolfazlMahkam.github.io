@@ -266,6 +266,7 @@ h1{
 .cardinfo button{
   color: #fff;
   font-family: DMSans-R;
+  font-size: 14px;
   width: 173px;
   height: 52px;
   border-radius: 50px;
@@ -311,14 +312,14 @@ h1{
 .ctrlinfo button{
   color: #fff;
   font-family: DMSans-R;
-  width: 173px;
+  font-size: 14px;
   height: 52px;
   border-radius: 50px;
   background-color: #4318FF;
   border: none;
   cursor: pointer;
   margin-top: 31px;
-  width: 235px;
+  width: 255.5px;
 }
 .ctrlinfo button:hover{
   font-size: 15px;
@@ -336,4 +337,150 @@ h1{
   margin-top: 8px;
   font-size: 14px;
   font-family: DMSans-R;
+}
+.lastinfo {
+  display: inline-block;
+}
+.lastinfo form{
+  display: inline-block;
+  padding: 3px 12px;
+  padding-right: 4px;
+  padding-bottom: 23px;
+}
+.trans,.may,.mahkam{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 315.5px;
+  height: 372px;
+}
+.transtitle{
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 21px;
+  margin-top: 1px;
+}
+.tib{
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.tib:hover .transimg{
+  rotate: 360deg;
+  transition: 1s;
+}
+.ti{
+  display: inline-block;
+}
+.transimg{
+  border-radius: 50px;
+  background-color: #F6F8FD;
+  padding: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tii{
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  width: 190.5px;
+  margin-top: 5px;
+}
+.transh1{
+  font-size: 16px;
+  margin: 0;
+}
+.transspan{
+  font-size: 12px;
+  margin: 0;
+}
+.va{
+  float: right;
+}
+.va a{
+  font-family: DMSans-B;
+  font-size: 14px;
+  color: #4318FF;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 24px;
+  margin-top: 4px;
+}
+.va a:hover{
+  color: #2d11a8;
+}
+.va img{
+  display: inline-block;
+  cursor: pointer;
+}
+.maytitle{
+  font-size: 36px;
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 32px;
+}
+.mii{
+  height: 43px;
+  margin-bottom: 27px;
+  border-left: 5px solid #4318FF;
+  padding: 0 0 0 10px;
+  cursor: pointer;
+}
+.mii:hover{
+  border-radius: 5px;
+  background-color: #f4f7fe;
+}
+.mayh1{
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+.mayspan{
+  font-size: 12px;
+  margin: 0;
+}
+.mhkmavatar{
+  text-align: center;
+  margin: 14px 0;
+}
+.mhkmavatar img{
+  background: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.mhkmtitle{
+  text-align: center;
+}
+.mhkmtitle h1{
+  font-size: 24px;
+  margin: 0;
+}
+.mhkmtitle span{
+  font-size: 14px;
+  margin: 0;
+}
+.mhkminfo{
+  display: inline-block;
+  padding: 40px 11px 11px;
+}
+.mhkminfo div{
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 75px;
+  cursor: pointer;
+}
+.mhkminfo div:hover{
+  background-color: #f4f7fe;
+  border-radius: 5px;
+}
+.mis{
+  font-size: 12px;
+  margin: 0;
+}
+.mih1{
+  font-size: 24px;
+  margin: 0;
 }
