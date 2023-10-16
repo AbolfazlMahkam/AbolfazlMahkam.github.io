@@ -1,0 +1,179 @@
+*{
+    border-
+}
+body{
+    background-color: #ddd;
+    direction: rtl;
+    font-family: "myfont", serif;
+}
+@font-face{
+    font-family: 'myfont';
+    src: url('fonts/AdobeArabic-Regular.otf'); /* IE9 Compat Modes */
+    src: url('fonts/AdobeArabic-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/AdobeArabic-Regular.otf') format('otf'), /* Super Modern Browsers */
+}
+@keyframes img{
+    0%{border-radius: 20px;}
+    100%{border-radius: 100px;}
+}
+@-webkit-keyframes img{
+    0%{border-radius: 20px;}
+    100%{border-radius: 100px;}
+}
+@keyframes a{
+    0%{border-color: orange;}
+    20%{border-color: orangered;}
+    40%{border-color: red;}
+    60%{border-color: green;}
+    80%{border-color: blue;}
+    100%{border-color: orange;}
+}
+@-webkit-keyframes a{
+    0%{border-color: orange;}
+    20%{border-color: orangered;}
+    40%{border-color: red;}
+    60%{border-color: green;}
+    80%{border-color: blue;}
+    100%{border-color: orange;}
+}
+div{
+    background-color: #eee;
+    max-width: 800px;
+    text-align: right;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px #aaa;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 5px;
+    animation-name: a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: a;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+}
+#inog{
+    text-align: center;
+}
+h1{
+    color: red;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+    color: darkblue;
+}
+img{
+    width: 200px;
+    margin-bottom: 20px;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #aaa;
+    transition: 0.3s;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: img;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+img:hover{
+    width: 400px;
+}
+li{
+    font-size: 30px;
+    text-align: justify;
+    color: darkblue;
+}
+#projects{
+    color: darkgreen;
+    list-style-type: upper-roman;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover{
+    color: darkgreen;
+}
+a:visited{
+    color: darkmagenta;
+}
+form{
+    font-size: 30px;
+    color: darkblue;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    border: solid 1px darkred;
+    border-radius: 100px;
+    background-color: rgb(255, 160, 160);
+    width: 750px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #aaa;
+    outline: none;
+    padding: 0px 10px;
+    color: darkred;
+    transition: 0.2s;
+}
+input:focus{
+    background-color: darkred;
+    border-color: rgb(255, 160, 160);
+    border-width: 2px;
+    color: rgb(255, 160, 160);
+}
+textarea{
+    display: block;
+    margin: 20px auto;
+    border: solid 1px darkred;
+    border-radius: 20px;
+    background-color:rgb(255, 160, 160);
+    max-width: 750px;
+    width: 750px;
+    height: 23px;
+    min-height: 23px;
+    min-width: 750px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #aaa;
+    outline: none;
+    padding: 5px 10px;
+    color: darkred;
+    transition: 0.2s;
+}
+textarea:focus{
+    background-color: darkred;
+    border-color: rgb(255, 160, 160);
+    border-width: 2px;
+    color: rgb(255, 160, 160);
+}
+button{
+    background-color: darkred;
+    border: solid 2px rgb(255, 160, 160);
+    border-radius: 50px;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-family: "myfont", serif;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #aaa;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: #fff;
+    border-color: darkred;
+}
+.sabmit{
+    color: rgb(255, 160, 160);
+    transition: 0.4s;
+}
+.sabmit:hover{
+    color: darkred;
+}
