@@ -7,21 +7,21 @@ body{
 }
 @font-face{
     font-family: 'ISW_l';
-    src: url('fonts/IRANSansWeb_Light.woff'); /* IE9 Compat Modes */
-    src: url('fonts/IRANSansWeb_Light.woff') format('embedded-opentype'), /* IE6-IE8 */
-            url('fonts/IRANSansWeb_Light.woff') format('otf'), /* Super Modern Browsers */
+    src: url('IRANSansWeb_Light.woff'); /* IE9 Compat Modes */
+    src: url('IRANSansWeb_Light.woff') format('embedded-opentype'), /* IE6-IE8 */
+            url('IRANSansWeb_Light.woff') format('otf'), /* Super Modern Browsers */
 }
 @font-face{
     font-family: 'ISW_m';
-    src: url('fonts/IRANSansWeb_Medium.woff'); /* IE9 Compat Modes */
-    src: url('fonts/IRANSansWeb_Medium.woff') format('embedded-opentype'), /* IE6-IE8 */
-            url('fonts/IRANSansWeb_Medium.woff') format('otf'), /* Super Modern Browsers */
+    src: url('IRANSansWeb_Medium.woff'); /* IE9 Compat Modes */
+    src: url('IRANSansWeb_Medium.woff') format('embedded-opentype'), /* IE6-IE8 */
+            url('IRANSansWeb_Medium.woff') format('otf'), /* Super Modern Browsers */
 }
 @font-face{
     font-family: 'ISW';
-    src: url('fonts/IRANSansWeb.woff'); /* IE9 Compat Modes */
-    src: url('fonts/IRANSansWeb.woff') format('embedded-opentype'), /* IE6-IE8 */
-            url('fonts/IRANSansWeb.woff') format('otf'), /* Super Modern Browsers */
+    src: url('IRANSansWeb.woff'); /* IE9 Compat Modes */
+    src: url('IRANSansWeb.woff') format('embedded-opentype'), /* IE6-IE8 */
+            url('IRANSansWeb.woff') format('otf'), /* Super Modern Browsers */
 }
 header{
     height: 80px;
