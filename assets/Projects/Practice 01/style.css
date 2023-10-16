@@ -8,9 +8,9 @@ body{
 }
 @font-face{
     font-family: 'myfont';
-    src: url('fonts/AdobeArabic-Regular.otf'); /* IE9 Compat Modes */
-    src: url('fonts/AdobeArabic-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
-            url('fonts/AdobeArabic-Regular.otf') format('otf'), /* Super Modern Browsers */
+    src: url('AdobeArabic-Regular.otf'); /* IE9 Compat Modes */
+    src: url('AdobeArabic-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
+            url('AdobeArabic-Regular.otf') format('otf'), /* Super Modern Browsers */
 }
 @keyframes img{
     0%{border-radius: 20px;}
