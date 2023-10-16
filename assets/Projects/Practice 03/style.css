@@ -1,0 +1,343 @@
+body{
+    background-color: #f5f6f6;
+    margin: 0;
+    text-decoration: none;
+    font-family: "ISW_m";
+    direction: rtl;
+}
+@font-face{
+    font-family: 'ISW_l';
+    src: url('fonts/IRANSansWeb_Light.woff'); /* IE9 Compat Modes */
+    src: url('fonts/IRANSansWeb_Light.woff') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/IRANSansWeb_Light.woff') format('otf'), /* Super Modern Browsers */
+}
+@font-face{
+    font-family: 'ISW_m';
+    src: url('fonts/IRANSansWeb_Medium.woff'); /* IE9 Compat Modes */
+    src: url('fonts/IRANSansWeb_Medium.woff') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/IRANSansWeb_Medium.woff') format('otf'), /* Super Modern Browsers */
+}
+@font-face{
+    font-family: 'ISW';
+    src: url('fonts/IRANSansWeb.woff'); /* IE9 Compat Modes */
+    src: url('fonts/IRANSansWeb.woff') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/IRANSansWeb.woff') format('otf'), /* Super Modern Browsers */
+}
+div{
+    width: 1320px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+section{
+    position: relative;
+    background-color: #fff;
+    width: 43%;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: right;
+}
+.se-img{
+    width: 100%;
+    display: flow-root;
+    float: right;
+    clear: both;
+}
+.ms{
+    position: absolute;
+    background-color: #7fbb00;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    display: inline;
+    right: 20px;
+    bottom: 252px;
+    font-size: 10pt;
+    transition: 0.4s;
+}
+.ms:hover{
+    background-color: darkgreen;
+    box-shadow: 2px 2px 5px #333;
+    top: 260px;
+    right: 22px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    font-family: ISW_m;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}   
+.p-main{
+    display: block;
+    color: #bfc2c4;
+    margin: 10px 30px;
+    text-align: justify;
+}
+h1{
+    position: static;
+    text-align: right;
+    margin: 20px 30px;
+    font-family: ISW_l;
+    
+}
+.h1-main{
+    margin-top: 310px;
+}
+.em{
+    background-color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #dfdfdf;
+    margin: 20px 30px;
+    margin-left: 200px;
+    transition: 0.4s;
+}
+.em a{
+    color: #636970;
+    transition: 0.4s;
+}
+.em:hover{
+    background-color: darkgrey;
+    border-color: #222;
+}
+.em:hover a{
+    color: #fff;
+}
+.he{
+    width: 100px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.he a{
+    color: #757780;
+    transition: 0.4s;
+}
+.he:hover{
+    background-color: #656565;
+}
+.he:hover a{
+    color: #f5f5f5;
+}
+.ta{
+    width: 100px;
+    height: 30px;
+    background-color: #ebf4e4;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.ta a{
+    color: #69a843;
+    transition: 0.4s;
+}
+.ta:hover{
+    background-color: #7fbb00;
+}
+.ta:hover a{
+    color: #ebf4e4;
+}
+.se-hr{
+    border: none;
+    border-top: 1px solid #dbdbdb;
+    width: 510px;
+    margin-bottom: 20px;
+}
+.sidbar1{
+    float: right;
+    width: 25%;
+}
+.h1-sb1{
+    margin: 20px 0px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 0;
+}
+.hr-sb11{
+    border: none;
+    border-top: 2px solid #5aa738;
+    width: 85px;
+    margin: 0;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+.hr-sb1{
+    border: none;
+    border-top: 1px solid #dbdbdb;
+    width: 270px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+.p-sb1{
+    display: block;
+    color: #bfc2c4;
+    margin: 10px 0px;
+    margin-right: 60px;
+    text-align: justify;
+}
+.searchbox{
+    background-image: url('https://www.w3schools/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 265px;
+    height: 40px;
+    border: none;
+    margin: 0;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    font-family: ISW_m;
+    outline: none;
+    transition: 0.5s;
+}
+.searchbox:focus{
+    border: 2px solid #5aa738;
+}
+.searchbox:before{
+    padding: 5px;
+    content: "\f137";
+    color: #7fbb00;
+}
+.a-sb1{
+    color: #565655;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.a-sb1:hover{
+    color: #5aa738;
+}
+.div-sb1{
+    width: 100%;
+    border: none;
+}
+.div-sb1:hover img{
+    transform: rotate(-90deg);
+}
+.img-sb1{
+    width: 10px;
+    margin: 5px;
+    float: right;
+    transition: 00.4s;
+}
+.sidbar2{
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+.hr-sb2{
+    border: none;
+    border-top: 2px solid #5aa738;
+    width: 80px;
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.h1-sb2{
+    margin: 20px 0px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.div-sb2{
+    width: 270px;
+    border: none;
+    text-align: right;
+    height: 70px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.th01{
+    width: 60px;
+    border-radius: 3px;
+    float: right;
+    transition: 0.4s;
+}
+.div-sb2:hover{
+    height: 80px;
+}
+.div-sb2:hover .th01{
+    width: 70px;
+}
+h5{
+    text-align: right;
+    margin: 10px;
+    margin-right: 70px;
+    color: #434141;
+    transition: 0.4s;
+}
+.div-sb2:hover h5{
+    margin-right: 80px;
+    font-size: 10pt;
+}
+.p-sb2{
+    color: #c0c3cc;
+    font-size: 8pt;
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.hr-sb3{
+    border: none;
+    border-top: 1px solid #d1d1d1;
+    width: 270px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.div-img{
+    border-radius: 5px;
+    width: 270px;
+    transition: 0.4s;
+}
+.end-div{
+    width: 270px;
+    position: relative;
+    text-align: right;
+    cursor: pointer;
+    min-height: 300px;
+}
+.end-div:hover .div-img{
+    transform: rotate(360deg);
+}
+.ms2{
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+    background-color: #7fbb00;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    display: inline;
+    font-size: 10pt;
+    transition: 0.4s;
+}
+.ms2:hover{
+    background-color: darkgreen;
+    box-shadow: 2px 2px 5px #333;
+    bottom: 122px;
+    right: 2px;
+}
+.h52{
+    margin-right: 10px;
+    transition-delay: 0.4s;
+}
+.end-div:hover .h52{
+    font-size: 10pt;
+}
