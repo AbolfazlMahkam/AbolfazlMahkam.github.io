@@ -53,14 +53,14 @@ section{
     border-radius: 3px;
     display: inline;
     right: 20px;
-    bottom: 252px;
+    top: 260px;
     font-size: 10pt;
     transition: 0.4s;
 }
 .ms:hover{
     background-color: darkgreen;
     box-shadow: 2px 2px 5px #333;
-    top: 260px;
+    top: 262px;
     right: 22px;
 }
 button{
