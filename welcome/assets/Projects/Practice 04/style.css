@@ -41,25 +41,35 @@ div{
   margin: 0;
   display: block;
 }
-.content{
-  right: 0;
-  float: right;
-  margin-left: 322px;
-  min-width: 1039px;
-  min-height: 1000px;
-  padding: 20px 15px;
-  display: block;
-  overflow-wrap: break-word
-}
-.sidebar{
-  background-color: #fff;
-  width: 320px;
-  height: 100%;
+.aside{
+  display: inline-block;
+  width: 25%;
   float: left;
-  left: 0;
   position: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
+  /* left: 0; */
+}
+.section{
+  display: inline-block;
+  width: 75%;
+  /* right: 0; */
+  float: right;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  padding: 20px 15px;
+  display: inline-block;
+  overflow-wrap: break-word;
+}
+.sidebar{
+  display: inline-block;
+  background-color: #fff;
+  width: 25%;
+  height: 100%;
+  overflow-y: scroll;
+  position: fixed;
 }
 .logo{
   height: 48px;
@@ -151,6 +161,7 @@ span{
 }
 .welcome{
   float: left;
+  width: 45%;
 }
 .hi{
   font-family: DMSans-B;
@@ -171,7 +182,7 @@ h1{
 .searchform{
   background-color: #fff;
   float: right;
-  width: 400px;
+  width: 50%;
   height: 50px;
   padding: 15px 44px;
   border-radius: 10px;
@@ -189,23 +200,23 @@ h1{
   margin-top: 2px;
 }
 .info{
-  width: 1009px;
+  width: 100%;
   height: 100px;
   margin: 0;
   display: inline;
   margin-bottom: 20ppx;
 }
 .infoform{
-  padding-left: 12px;
-  padding-right: 4px;
-  width: 232px;
+  width: 24.5%;
   height: 100px;
-  display: inline;
+  display: inline-block;
+  padding: 0 5px;
+  /* text-align: center; */
 }
 .infobox{
   background-color: #fff;
   height: 100px;
-  width: 232px;
+  width: 100%;
   padding: 22px 22px;
   margin: 0;
   right: 0;
@@ -244,17 +255,20 @@ h1{
 }
 .cardbox{
   width: 100%;
-  padding: 16px 12px;
+  padding: 16px 5px;
   display: inline-block;
   margin-top: 4px;
 }
 .card{
-  margin-right: 16px;
-  width: 651px;
-  background-color: #fff;
+  width: 68%;
+  display: inline-block;
+  padding-right: 10px;
+}
+.cardback{
   border-radius: 20px;
   padding: 30px;
-  display: inline-block;
+  background-color: #fff;
+  width: 100%;
 }
 .cardinfo{
   width: 247px;
@@ -275,9 +289,9 @@ h1{
   line-height: 30px;
 }
 .cardinfo button{
-  color: #fff;
   font-family: DMSans-R;
   font-size: 14px;
+  color: #fff;
   width: 173px;
   height: 52px;
   border-radius: 50px;
@@ -291,7 +305,7 @@ h1{
   box-shadow: 3px 3px 3px #707EAE;
 }
 .div-ci{
-  padding-right: 10px;
+  /* padding-right: 10px; */
   float: right;
   width: 100px;
   display: inline-block;
@@ -301,13 +315,15 @@ h1{
   display: inline-block;
 }
 .ctrl{
+  display: inline-block;
+  width: 31%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.ctrlback{
   background-color: #fff;
   border-radius: 20px;
   padding: 30px;
-  display: inline-block;
-  width: 314px;
-  height: 100%;
-  margin-bottom: 20px;
 }
 .div-cti{
   display: block;
@@ -330,7 +346,7 @@ h1{
   border: none;
   cursor: pointer;
   margin-top: 31px;
-  width: 255.5px;
+  width: 100%;
 }
 .ctrlinfo button:hover{
   font-size: 15px;
@@ -351,10 +367,12 @@ h1{
 }
 .lastinfo {
   display: inline-block;
+  width: 100%;
 }
-.lastinfo form{
+.LIF{
+  width: 33%;
   display: inline-block;
-  padding: 3px 12px;
+  padding: 5PX;
   padding-right: 4px;
   padding-bottom: 23px;
 }
@@ -362,8 +380,9 @@ h1{
   background-color: #fff;
   border-radius: 20px;
   padding: 30px;
-  width: 315.5px;
+  width: 100%;
   height: 372px;
+  display: inline-block;
 }
 .transtitle{
   font-size: 20px;
