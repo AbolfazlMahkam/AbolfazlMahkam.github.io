@@ -20,18 +20,18 @@ html {
 }
 @font-face {
   font-family: DMSans-R;
-  src: url(font/DMSans-Regular.ttf);
+  src: url(DMSans-Regular.ttf);
   font-style: normal;
 }
 @font-face {
   font-family: DMSans-M;
-  src: url(font/DMSans-Medium.ttf);
+  src: url(DMSans-Medium.ttf);
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
   font-family: DMSans-B;
-  src: url(font/DMSans-Bold.ttf);
+  src: url(DMSans-Bold.ttf);
   font-style: normal;
 }
 body{
