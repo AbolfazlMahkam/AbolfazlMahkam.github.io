@@ -77,6 +77,7 @@ a{
     color: #bfc2c4;
     margin: 10px 30px;
     text-align: justify;
+    font-size: 15px;
 }
 h1{
     position: static;
@@ -151,7 +152,7 @@ h1{
 }
 .sidbar1{
     float: right;
-    width: 25%;
+    /* width: 25%; */
 }
 .h1-sb1{
     margin: 20px 0px;
@@ -235,7 +236,7 @@ h1{
 }
 .sidbar2{
     float: left;
-    width: 25%;
+    /* width: 25%; */
     margin: 0;
 }
 .hr-sb2{
