@@ -1,80 +1,140 @@
 <!DOCTYPE html>
+<html lang="fa">
     <head>
         <meta charset="UTF-8">
-        <title>وبلاگ ساده</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>My Blog</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body >
-        <div class="container-fluid body-face">
-            <section class="col-sm-5">
-                <span><img class="se-img" src="big-thumbnail-post.jpg"></img>
-                <button class="ms" ><a href="a">مدیریت سیستم</a></button></span>
-                <h1 class="h4 h1-main">نصب و راه اندازی وی پی ان در دبیان و اوبونتو</h1>
-                <p class="p-main lead">در این آموزش، ما درباره چگونگی استفاده از تاینک، یک سرور مجازی، برایایجاد یک وی پی ان امن که سرورهای شما می توانند ارتباط برقرار کنند، مانند شبکه های محلی هستند. ما همچنین نشان خواهیم داد که چگونه از تاینگ استفاده کنیم تا یک تونل ایمن را به یک شبکه خصوصی ایجاد کنیم. ما از سرور اوبونتو 14.04 استفاده خواهیم کرد، اما [...]</p>
-            <button class="em"><a href="a">ادامه مطلب...</a></button>
-            <button class="he"><a href="a">هاروی اسکات</a></button>
-            <button class="ta"><a href="a">24 خرداد 1396</a></button>
-            <hr class="se-hr">
-            </section>
-            <aside class="col-sm-3 sidbar1">
-                <h1 class="h1-sb1">وبلاگ پیشرفته</h1>
-                <hr id="hr" class="hr-sb11">
-                <p class="p-sb1">آزمون یک موضوع وبلاگ چند نویسنده و شخصی برای پلتفرم وردپرس است. دارای طراحی کم، پاسخگو، محتوا و چند سطون است. موجود در تم فارست.</p>
-                <hr class="hr-sb1">
-                <input name="search" class="searchbox" type="text" placeholder="جستجو..."/>
-                <hr class="hr-sb1">
-                <a class="a-sb1" href="a">کد کوتاه</a>
-                <hr class="hr-sb1">
-                <div class="div-sb1"><a class="a-sb1" href="#">سبک های پست</a><img class="img-sb1" src="flesh.png"/></div>
-                <hr class="hr-sb1">
-                <div class="div-sb1"><a class="a-sb1" href="#">امکانات</a><img class="img-sb1" src="flesh.png"/></div>
-                <hr class="hr-sb1">
-                <a class="a-sb1" href="#">سبک تاریک</a>
-                <hr class="hr-sb1">
-                <a class="a-sb1" href="#">خرید</a>
-            </aside>
-            <aside class="col-sm-3 sidbar2">
-                <h1 class="h1-sb2">آخرین مقاله</h1>
-                <hr class="hr-sb2">
-                <div class="div-sb2">
-                    <img class="th01" src="thumb01.jpg"/>
-                    <h5>نصب و راه اندازی وی پی ان در دبیان و اوبونتو</h5>
-                    <p class="p-sb2">24 خرداد 1396</p>
+    <body>
+        <div class="container my-container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-md-12 col-xs-12">
+                    <div class="title-right-sidbar">
+                        <h2>وبلاگ پیشرفته</h2>
+                        <div class="border-box"></div>
+                        <p>آزمون یک موضوع وبلاگ چند نویسنده و شخصی برای پلت فرم وردپرس است. دارای طراحی کم، پاسخگو، محتوا و
+                            چند ستون است. موجود در تم فارست.</p>
+                    </div>
+                    <div class="form-right-sidbar">
+                        <form>
+                            <label for="search"><i class="fas fa-search"></i></label>
+                            <input type="search" id="search" class="form-control search-form" placeholder="جستجو...">
+                            <button type="search" class="bsearch"><i class="fas fa-arrow-circle-left"></i></button>
+                        </form>
+                    </div>
+                    <div class="nav-right-sidbar">
+                        <a href="#" class="">کد کوتاه</a>
+                        <a href="#" class=""><span>سبک های پست<i class="fas fa-angle-left"></i></span></a>
+                        <a href="#" class=""><span>امکانات<i class="fas fa-angle-left"></i></span></a>
+                        <a href="#" class="">سبک تاریک</a>
+                        <a href="#" class="">خرید</a>
+                    </div>
                 </div>
-                <div class="div-sb2">
-                    <img class="th01" src="thumb02.jpg"/>
-                    <h5>طراحی رسپانسیو و موبایل</h5>
-                    <p class="p-sb2">22 خرداد 1396</p>
+                <div class="col-lg-6 col-sm-12 col-md-12 col-xs-12">
+                    <div class="img-center">
+                        <img src="big-thumbnail-post.jpg" alt="post images">
+                    </div>
+                    <div class="pc-center">
+                        <a href="#">مدیریت سیستم</a>
+                        <div class="pi-center">
+                            <h1>نصب و راه اندازی وی پی ان در دبیان و اوبونتو</h1>
+                            <p>در این آموزش، ما درباره چگونگی استفاده از تاینک، یک سرور مجازی، برای ایجاد یک وی پی ان امن که
+                            سرورهای
+                            شما می توانند ارتباط برقرار کنند، مانند شبکه های محلی هستند. ما همچنین نشان خواهیم داد که
+                            چگونه
+                            از
+                            تاینک استفاده کنیم تا یک تونل ایمن را به یک شبکه خصوصی ایجاد کنیم. ما از سرورهای اوبونتو
+                            ۱۴.۰۴
+                            استفاده خواهیم کرد، اما [...]
+                            </p>
+                        </div>
+                        <div class="pb-center ">
+                            <a href="#" class="pbl-center">ادامه مطلب...</a>
+                            <div class="pbl-left">
+                                <a href="#" class="pbl-center-1">هاروی اسکات</a>
+                                <a href="#" class="pbl-center-2">۲۴ خرداد ۱۳۹۶</a>
+                            </div>
+                        </div>
+                        <div class="border-bcenter"></div>
+                    </div>
                 </div>
-                <div class="div-sb2">
-                    <img class="th01" src="thumb03.jpg"/>
-                    <h5>پیکربندی اولیه سرور و راه اندازی در دبیان ...</h5>
-                    <p class="p-sb2">20 خرداد 1396</p>
+                <div class="col-lg-3 col-sm-12 col-md-12 col-xs-12">
+                    <div class="title-left-sidbar">
+                        <h2>آخرین مقالات</h2>
+                        <div class="border-box"></div>
+                    </div>
+                    <div class="posts-box">
+                        <div class="post-info-grid row">
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                                <img src="thumb01.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 pig-title">
+                                <a href="#">نصب و راه اندازی وی پی ان در دبیان و اوبونتو</a>
+                                <span>۲۴ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                        <div class="post-info-grid row">
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                                <img src="thumb02.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 pig-title">
+                                <a href="#">طراحی رسپانسیو و موبایل</a>
+                                <span>۲۰ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                        <div class="post-info-grid row">
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                                <img src="thumb03.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 pig-title">
+                                <a href="#">پیکربندی اولیه سرور و راه اندازی در دبیان ...</a>
+                                <span>۱۸ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                        <div class="post-info-grid row">
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                                <img src="thumb04.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 pig-title">
+                                <a href="#">زمان پاسخ سریعتر با حافظه معکوس پروکسی</a>
+                                <span>۱۶ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                        <div class="post-info-grid row">
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                                <img src="thumb05.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 pig-title">
+                                <a href="#">مقدمه طراحی الگوها جاوا اسکریپت</a>
+                                <span>۱۴ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                        <div class="post-info-grid row">
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                                <img src="thumb06.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8 pig-title">
+                                <a href="#">اچ تی تی پی ساده در نود جی اس</a>
+                                <span>۲۴ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lp-box">
+                        <div class="lpb-img">
+                            <img src="another-image.jpg">
+                        </div>
+                        <div class="lpb-info">
+                            <a href="#">مدیریت سیستم</a>
+                            <div class="lpbi-title">
+                                <a href="#">پیکربندی اولیه سرور و راه اندازی در دبیان ...</a>
+                                <span>هاروی اسکات / ۲۰ خرداد ۱۳۹۶</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="div-sb2">
-                    <img class="th01" src="thumb04.jpg"/>
-                    <h5>زمان پاسخ سریعتر با حافظه معکوس پروکسی</h5>
-                    <p class="p-sb2">18 خرداد 1396</p>
-                </div>
-                <div class="div-sb2">
-                    <img class="th01" src="thumb05.jpg"/>
-                    <h5>مقدمه طراحی الگوهای جاوا اسکریپت</h5>
-                    <p class="p-sb2">16 خرداد 1396</p>
-                </div>
-                <div class="div-sb2">
-                    <img class="th01" src="thumb06.jpg"/>
-                    <h5>اچ تی تی پی ساده در نود جی اس</h5>
-                    <p class="p-sb2">14 خرداد 1396</p>
-                </div>
-                <hr class="hr-sb3">
-                <div class="end-div">
-                    <img class="div-img" src="another-image.jpg"/>
-                    <button class="ms2" ><a href="a">مدیریت سیستم</a></button></span>
-                    <h5 class="h52">پیکربندی اولیه سرور و راه اندازی در دبیان ...</h5>
-                    <p class="p-sb2">هاروی اسکات/20 خرداد 1396</p>
-                </div>
-            </aside>
+            </div>
         </div>
     </body>
 </html>
