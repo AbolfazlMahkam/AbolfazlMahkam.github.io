@@ -1,218 +1,257 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Welcome to Venus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
   </head>
   <body>
-    <section class="aside">
-      <div class="sidebar">
-        <div class="logo-box">
-          <img href="#" class="logo" src="Logo.svg">
+    <div class="my_container clearfix">
+      <div id="menu" class="menu" style="left: -310px;">
+        <button class="btn-close-menu" onclick="toggleMenu()">X</button>
+        <div class="topbar">
+          <div class="img-topbar">
+            <img src="Logo.svg">
+          </div>
         </div>
         <div class="dashboard">
           <a href="#" class="botton b-dashboard">
             <span class="bds">Dashboard</span>
-            <img class="bdl" src="dashboard.svg">
+            <img class="bdl" src="icon.svg">
           </a>
           <a href="#" class="botton">
             <span>Activity</span>
-            <img class="bdl" src="activity.svg">
+            <img class="bdl" src="Icon 1.svg">
           </a>
           <a href="#" class="botton">
             <span>Library</span>
-            <img class="bdl" src="library.svg">
+            <img class="bdl" src="Icon 2.svg">
           </a>
           <a href="#" class="botton">
             <span>Security</span>
-            <img class="bdl" src="security.svg">
+            <img class="bdl" src="Icon 3.svg">
           </a>
           <a href="#" class="botton">
             <span>Schedules</span>
-            <img class="bdl" src="schedules.svg">
+            <img class="bdl" src="Icon 4.svg">
           </a>
           <a href="#" class="botton">
             <span>Payouts</span>
-            <img class="bdl" src="payouts.svg">
+            <img class="bdl" src="Icon 5.svg">
           </a>
           <a href="#" class="botton">
             <span>Settings</span>
-            <img class="bdl" src="settings.svg">
+            <img class="bdl" src="Icon 6.svg">
           </a>
         </div>
-        <div class="logout">
-          <a href="#" class="botton">
-            <span>Log Out</span>
-            <img class="bdl" src="Icon logout.svg">
-          </a>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="content">
-        <div class="header">
-          <div class="welcome">
-            <span class="hi">Hi Andrei,</span>
-            <h1>Welcome to Venus!</h1>
+          <div class="logout">
+                    <a href="#" class="botton">
+                    <span>Log Out</span>
+                    <img class="bdl" src="Icon logout.svg">
+                    </a>
           </div>
-          <div class="searchbox">
-            <form class="searchform" action="search" method="GET">
-              <img class="searchicon" src="Search Icon.svg">
-              <input class="search" type="search" name="search" placeholder="Search">
-            </form>
-          </div>
+            </div>
+            <div class="menu-top">
+                <button id="btn-toggle-menu" onclick="toggleMenu()">menu</button>
+            </div>
+            <div class="content">
+                <div class="top-row clearfix">
+                    <div class="welcomebox col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <span class="welcome_name">Hi Andrei,</span>
+                        <p>Welcome to Venus!</p>
+                    </div>
+                    <div class="searchbox col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <form class="searchform" action="search" method="GET">
+                            <div class="formgroup">
+                                <label for="search"><img src="Search Icon.svg"></label>
+                                <input type="search" id="search" name="search" placeholder="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="info-row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="infobox">
+                            <p>Spent this month</p>
+                            <span>$2980.35</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="infobox clearfix">
+                            <div>
+                                <img src="Icon1-rightside-small-box.svg">
+                            </div>
+                            <div>
+                                <p>Earnings</p>
+                                <span>$1932.78</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="infobox clearfix">
+                            <div class="purple-img">
+                                <img src="Icon2-rightside-small-box.svg">
+                            </div>
+                            <div>
+                                <p>New clients</p>
+                                <span>12673</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="infobox purple-backgraound">
+                            <p>Activity</p>
+                            <span>$2310.93</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row clearfix">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class="cardbox clearfix">
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                <div class="left-cardbox">
+                                    <div>
+                                        <span>Reach financial goals faster</span>
+                                        <p>Use your Venus card around the world with no hidden fees. Hold, transfer and
+                                            spend money.</p>
+                                    </div>
+                                    <div>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <img class="left-cardbox-img" src="cards.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="cardbox">
+                            <div class="right-cardbox-img">
+                                <img src="fingerprint.svg">
+                            </div>
+                            <div class="right-cardbox-text">
+                                <span>Control card security in-app with a tap</span>
+                                <p>Discover our cards benefits, with <br />one tap.</p>
+                            </div>
+                            <div class="right-cardbox-btn">
+                                <a href="#">Cards</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="otherinfo-row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="otherinfo-box">
+                            <div class="title">
+                                <p>Your transactions</p>
+                            </div>
+                            <div class="items clearfix">
+                                <div class="clearfix">
+                                    <div class="img-items">
+                                        <img src="directions_bus.svg">
+                                    </div>
+                                    <div class="text-items">
+                                        <p>Public Transport</p>
+                                        <span>22 September 2020</span>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="img-items">
+                                        <img src="shopping_basket.svg">
+                                    </div>
+                                    <div class="text-items">
+                                        <p>Grocery Store</p>
+                                        <span>18 September 2020</span>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="img-items">
+                                        <img src="subscriptions.svg">
+                                    </div>
+                                    <div class="text-items">
+                                        <p>Public Transport</p>
+                                        <span>22 September 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="links">
+                                <a href="#"><span>View all<img src="keyboard_backspace.svg"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="otherinfo-box">
+                            <div class="title-center-box">
+                                <p>27 May</p>
+                            </div>
+                            <div class="items-center">
+                                <div>
+                                    <div class="text-center">
+                                        <p>Meet w/ Simmmple</p>
+                                        <span>01:00 PM - 02:00 PM</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="text-center">
+                                        <p>Fitness Training</p>
+                                        <span>02:00 PM - 03:00 PM</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="text-center">
+                                        <p>Reading time</p>
+                                        <span>03:00 PM - 04:00 PM</span>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <div class="links">
+                                <a href="#"><span>View all Tasks<img src="keyboard_backspace.svg"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="otherinfo-box">
+                            <div class="img-profile">
+                                <img src="Avatar.svg">
+                            </div>
+                            <div class="name-profile">
+                                <p>Charles Robbie</p>
+                                <div>
+                                    <img src="Location Icon.svg">
+                                    <span>New York, USA</span>
+                                </div>
+                            </div>
+                            <div class="info-profile row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <p>Projects</p>
+                                    <span>28</span>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <p>Followers</p>
+                                    <span>643</span>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <p>Following</p>
+                                    <span>76</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="info">
-          <form class="infoform">
-            <div class="infobox">
-              <span>Spent this month</span>
-              <h1>$2980.35</h1>
-            </div>
-          </form>
-          <form class="infoform">
-            <div class="infobox">
-              <img src="earnings.svg">
-              <span>Earnings</span>
-              <h1>$1932.78</h1>
-            </div>
-          </form>
-          <form class="infoform">
-            <div class="infobox">
-              <img class="cl" src="clients.svg">
-              <span>New clients</span>
-              <h1>12673</h1>
-            </div>
-          </form>
-          <form class="infoform">
-            <div class="infobox activ">
-              <span>Activity</span>
-              <h1>$2310.93</h1>
-            </div>
-          </form>
-        </div>
-        <div class="cardbox">
-          <form class="card">
-            <div class="cardback">
-              <div class="cardinfo">
-                <h1>Reach financial goals faster</h1>
-                <span>Use your Venus card around the world with no hidden fees. Hold, transfer and spend money.</span>
-                <button>Learn more</button>
-              </div>
-              <div class="div-ci">
-                <img class="cardimg" src="cards.png">
-              </div>
-            </div>
-          </form>
-          <form class="ctrl">
-            <div class="ctrlback">
-              <div class="div-cti">
-                <img class="ctrlimg" src="fingerprint.svg">
-              </div>
-              <div class="ctrlinfo">
-                <h1>Control card security in-app with a tap</h1>
-                <span>Discover our cards benefits, with one tap.</span>
-                <button>Cards</button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="lastinfo">
-          <form class="LIF">
-            <div class="trans">
-              <h1 class="transtitle">Your transactions</h1>
-              <div>
-                <div class="tib">
-                  <div class="ti">
-                    <img class="transimg" src="directions_bus.svg">
-                  </div>
-                  <div class="tii">
-                    <h1 class="transh1">Public Transport</h1>
-                    <span class="transspan">105 Octobr 2023</span>
-                  </div>
-                </div>
-                <div class="tib">
-                  <div class="ti">
-                    <img class="transimg" src="shopping_basket.svg">
-                  </div>
-                  <div class="tii">
-                    <h1 class="transh1">Grocery Store</h1>
-                    <span class="transspan">52 Octobr 2023</span>
-                  </div>
-                </div>
-                <div class="tib">
-                  <div class="ti">
-                    <img class="transimg" src="subscriptions.svg">
-                  </div>
-                  <div class="tii">
-                    <h1 class="transh1">Public Transport</h1>
-                    <span class="transspan">105 Octobr 2023</span>
-                  </div>
-                </div>
-              </div>
-              <div class="va">
-                <a href="#">View all</a>
-                <img href="#" src="keyboard_backspace.svg">
-              </div>
-            </div>
-          </form>
-          <form class="LIF">
-            <div class="may">
-              <h1 class="maytitle">15 Octobr</h1>
-              <div class="mii">
-                <h1 class="mayh1">Meet w/ Simmmple</h1>
-                <span class="mayspan">01:00 PM - 02:00 PM</span>
-              </div>
-              <div class="mii">
-                <h1 class="mayh1">Fitness Training</h1>
-                <span class="mayspan">02:00 PM - 03:00 PM</span>
-              </div>
-              <div class="mii">
-                <h1 class="mayh1">Reading time</h1>
-                <span class="mayspan">03:00 PM - 04:00 PM</span>
-              </div>
-              <div class="va">
-                <a href="#">View all Tasks</a>
-                <img href="#" src="keyboard_backspace.svg">
-              </div>
-            </div>
-          </form>
-          <form class="LIF">
-            <div class="mahkam">
-              <div class="mhkmavatar">
-                <img src="Avatar.svg">
-              </div>
-              <div class="mhkmtitle">
-                <h1>Abolfazl Mahkam</h1>
-                <div class="mhkmlocation">
-                  <img src="Location Icon.svg">
-                  <span>Qom, Islamic Republic of Iran</span>
-                </div>
-              </div>
-              <div class="mhkminfo">
-                <div class="mhkmprof">
-                  <a href="projects.html" class="aproj">
-                    <span  class="mis">Projects</span>
-                    <h1  class="mih1">7</h1>
-                  </a>
-                </div>
-                <div>
-                  <a class="aproj">
-                    <span class="mis">Followers</span>
-                    <h1 class="mih1">90</h1>
-                  </a>
-                </div>
-                <div>
-                  <a class="aproj">
-                    <span class="mis">Following</span>
-                    <h1 class="mih1">115</h1>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-  </body>
+        <script>
+            const menu = document.getElementById("menu");
+            const toggleMenu = () => {
+                if (menu.style.left == "-310px")
+                    menu.style.left = "0px";
+                else menu.style.left = "-310px";
+            }
+        </script>
+    </body>
 </html>
