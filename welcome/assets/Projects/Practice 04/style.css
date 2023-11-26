@@ -249,12 +249,10 @@ background: #4318ff;
   font-size: 36px;
   color: #2B3674;
 }
-
 .formgroup {
   position: relative;
   float: right;
 }
-
 .formgroup input {
   width: 400px;
   border: none;
@@ -262,27 +260,22 @@ background: #4318ff;
   border-radius: 10px;
   outline: none;
 }
-
 .formgroup label {
   position: absolute;
   top: 14px;
   left: 20px;
   cursor: text;
 }
-
 .top-row {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-
 .searchbox {
   margin-top: 20px;
 }
-
 .infobox p {
   color: #A3AED0;
 }
-
 .infobox span {
   font-size: 26px;
   font-family: DMSans;
@@ -290,45 +283,36 @@ background: #4318ff;
   color: #1B2559;
   margin: 0;
 }
-
 .purple-img img {
   background: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
 }
-
 .purple-backgraound {
   background: linear-gradient(135deg, #868CFF 0%, #4318FF 100%);
   transition: 0.3s;
 }
-
 .purple-backgraound:hover {
   box-shadow: 3px 3px 8px 0px #aeb2feb3;
 }
-
 .purple-backgraound p,
 .purple-backgraound span {
   color: #fff;
 }
-
 .info-row {
   margin-bottom: 20px;
 }
-
 [class*=col] {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .left-cardbox {
   padding-top: 20px;
 }
-
 .left-cardbox span {
   font-weight: bold;
   font-family: DMSans;
   font-size: 34px;
   color: #1B2559;
 }
-
 .left-cardbox p {
   font-weight: 500;
   font-size: 16px;
@@ -337,7 +321,6 @@ background: #4318ff;
   color: #A3AED0;
   line-height: 30px;
 }
-
 .left-cardbox a {
   background-color: #4318FF;
   color: #fff;
@@ -347,33 +330,26 @@ background: #4318ff;
   display: inline-block;
   transition: 0.2s;
 }
-
 .left-cardbox a:hover {
   background-color: #2d11a8;
 
 }
-
-
 .left-cardbox-img {
   float: right;
 }
-
 .right-cardbox-img img {
   margin-bottom: 15px;
 }
-
 .right-cardbox-text span {
   font-size: 28px;
   color: #1B2559;
   font-weight: bold;
 }
-
 .right-cardbox-text p {
   font-size: 14px;
   color: #A3AED0;
   margin-top: 8px;
 }
-
 .right-cardbox-btn a {
   color: #fff;
   text-decoration: none;
@@ -386,35 +362,28 @@ background: #4318ff;
   margin-top: 31px;
   transition: 0.2s;
 }
-
 .right-cardbox-btn a:hover {
   background-color: #2d11a8;
 }
-
 .card-row {
   margin-bottom: 20px;
 }
-
 .otherinfo-row {
   margin-bottom: 20px;
 }
-
 .otherinfo-box {
   background-color: #fff;
   border-radius: 20px;
   padding: 30px;
 }
-
 .title {
   margin-bottom: 20px;
 }
-
 .title p {
   font-weight: bold;
   font-size: 20px;
   color: #1B2559;
 }
-
 .img-items {
   padding: 12px;
   background: #F6F8FD;
@@ -422,52 +391,42 @@ background: #4318ff;
   border-radius: 50%;
   margin-right: 16px;
 }
-
 .text-items p {
   font-weight: bold;
   font-size: 16px;
   color: #1B2559;
 }
-
 .text-items span {
   font-weight: 500;
   font-size: 12px;
   color: #A3AED0;
 }
-
 .items div {
   margin-bottom: 16px;
 }
-
 .links {
   text-align: right;
 }
-
 .links a {
   color: #4318FF;
   font-weight: bold;
   text-decoration: none;
   transition: 0.2s;
 }
-
 .links a:hover {
   color: #2d11a8;
 }
-
 .title-center-box {
   margin-bottom: 30px;
 }
-
 .title-center-box p {
   font-weight: bold;
   font-size: 36px;
   color: #1B2559;
 }
-
 .items-center div {
   margin-bottom: 27px;
 }
-
 .text-center {
   border-left: 5px solid #4318FF;
   padding-left: 10px;
@@ -475,273 +434,247 @@ background: #4318ff;
   transition: 0.25s;
   cursor: pointer;
 }
-
 .text-center:hover {
   background-color: #f4f7fe;
   border-radius: 5px;
 }
-
 .text-center p {
   font-weight: bold;
   font-size: 16px;
   color: #1B2559;
 }
-
 .text-center span {
   font-weight: 500;
   font-size: 12px;
   color: #A3AED0;
 }
-
 .img-profile {
   text-align: center;
   margin: 14px 0;
 }
-
 .img-profile img {
   background-color: #f4f7fe;
   border-radius: 50%;
 }
-
 .name-profile {
   text-align: center;
 }
-
 .name-profile p {
   font-weight: bold;
   font-size: 24px;
   color: #1b2559;
 }
-
 .name-profile span {
   font-weight: 500;
   font-size: 14px;
   color: #a3aed0;
 }
-
 .info-profile {
   text-align: center;
   padding: 11px;
   padding-top: 40px;
 }
-
 .info-profile p {
   font-weight: normal;
   font-size: 12px;
   color: #A3AED0;
 }
-
 .info-profile span {
   font-weight: bold;
   font-size: 24px;
   color: #1B2559;
   margin: 0;
 }
-
 .info-profile div {
   border-radius: 5px;
   text-decoration: none;
   transition: 0.2s;
   cursor: pointer;
 }
-
 .info-profile div:hover {
   background-color: #f1f1f1;
   text-decoration: none;
 }
-
 @media (max-width:1199px) {
   .menu {
       width: 310px;
       z-index: 999;
       transition: 0.4s;
   }
-
   .content {
       margin-left: 0;
   }
-
   .info-row div {
       margin-bottom: 10px;
   }
-
   .searchform,
   .formgroup,
   .formgroup input {
       width: 100%;
   }
-
   .info-row {
       margin-bottom: 0;
   }
-
   .card-row {
       margin-bottom: 0;
   }
-
   .top-row {
       margin-bottom: 20px;
   }
-
   .otherinfo-box {
       margin-top: 20px;
   }
-
   .card-row {
       margin-bottom: 0px;
   }
-
   .card-row>div:first-child div {
       margin-bottom: 20px;
   }
-
   .left-cardbox-img {
       width: 100%;
   }
 }
-
 @media (min-width:1200px) {
-
   .menu-top,
   .btn-close-menu {
       display: none;
   }
-
   .menu {
       left: 0 !important;
   }
 }
-/*!
-* Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
-* License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-*/
 .fa,
 .fas,
 .far,
 .fal,
 .fad,
 .fab {
- -moz-osx-font-smoothing: grayscale;
- -webkit-font-smoothing: antialiased;
- display: inline-block;
- font-style: normal;
- font-variant: normal;
- text-rendering: auto;
- line-height: 1; }
-
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
 .fa-lg {
- font-size: 1.33333em;
- line-height: 0.75em;
- vertical-align: -.0667em; }
-
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; 
+}
 .fa-xs {
- font-size: .75em; }
-
+  font-size: .75em; 
+}
 .fa-sm {
- font-size: .875em; }
-
+  font-size: .875em; 
+}
 .fa-1x {
- font-size: 1em; }
-
+  font-size: 1em; 
+}
 .fa-2x {
- font-size: 2em; }
-
+  font-size: 2em; 
+}
 .fa-3x {
- font-size: 3em; }
-
+  font-size: 3em; 
+}
 .fa-4x {
- font-size: 4em; }
-
+  font-size: 4em; 
+}
 .fa-5x {
- font-size: 5em; }
-
+  font-size: 5em; 
+}
 .fa-6x {
- font-size: 6em; }
-
+  font-size: 6em; 
+}
 .fa-7x {
- font-size: 7em; }
-
+  font-size: 7em; 
+}
 .fa-8x {
- font-size: 8em; }
-
+  font-size: 8em; 
+}
 .fa-9x {
- font-size: 9em; }
-
+  font-size: 9em; 
+}
 .fa-10x {
- font-size: 10em; }
-
+  font-size: 10em; 
+}
 .fa-fw {
- text-align: center;
- width: 1.25em; }
-
+  text-align: center;
+  width: 1.25em; 
+}
 .fa-ul {
- list-style-type: none;
- margin-left: 2.5em;
- padding-left: 0; }
- .fa-ul > li {
-   position: relative; }
-
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; 
+}
+.fa-ul > li {
+  position: relative; 
+}
 .fa-li {
- left: -2em;
- position: absolute;
- text-align: center;
- width: 2em;
- line-height: inherit; }
-
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; 
+}
 .fa-border {
- border: solid 0.08em #eee;
- border-radius: .1em;
- padding: .2em .25em .15em; }
-
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; 
+}
 .fa-pull-left {
- float: left; }
-
+  float: left;
+}
 .fa-pull-right {
- float: right; }
-
+  float: right; 
+}
 .fa.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
- margin-right: .3em; }
-
+  margin-right: .3em; 
+}
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
- margin-left: .3em; }
-
+  margin-left: .3em; 
+}
 .fa-spin {
- -webkit-animation: fa-spin 2s infinite linear;
-         animation: fa-spin 2s infinite linear; }
-
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; 
+}
 .fa-pulse {
- -webkit-animation: fa-spin 1s infinite steps(8);
-         animation: fa-spin 1s infinite steps(8); }
-
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
 @-webkit-keyframes fa-spin {
- 0% {
-   -webkit-transform: rotate(0deg);
-           transform: rotate(0deg); }
- 100% {
-   -webkit-transform: rotate(360deg);
-           transform: rotate(360deg); } }
-
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); 
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); 
+  } 
+}
 @keyframes fa-spin {
- 0% {
-   -webkit-transform: rotate(0deg);
-           transform: rotate(0deg); }
- 100% {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); 
+  }
+  100% {
    -webkit-transform: rotate(360deg);
-           transform: rotate(360deg); } }
-
+           transform: rotate(360deg); 
+  } 
+}
 .fa-rotate-90 {
- -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
- -webkit-transform: rotate(90deg);
-         transform: rotate(90deg); }
-
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); 
+}
 .fa-rotate-180 {
  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
  -webkit-transform: rotate(180deg);
