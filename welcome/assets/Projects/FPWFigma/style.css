@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.6s;
+    transition-delay: 0.1s;
+}
+@font-face {
+	font-family: 'Yekan';
+	src:	url('Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('Yekan.woff') format('woff'), /* Modern Browsers */
+			url('Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+.container{
+    font-family: 'Yekan';
+    box-shadow: 2px 2px 9px #aaa;
+}
+.login-form{
+    background-color: #fff;
+    min-height: 100%;
+    padding: 100px 80px;
+    float: right;
+}
+h3{
+    font-size: 20px;
+}
+.wo, .sn{
+    display: inline-block;
+    min-width: 45%;
+    margin: 20px 0 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+.wo{
+    color: #00a6b6;
+    border-bottom: 1px solid #00a6b6;
+}
+.wo:hover,
+.sn:hover{
+    color: #1c39bb;
+    border-bottom:1px solid #1c39bb;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 6px 6px #aaa;
+}
+.email,
+.password{
+    margin-bottom: 20px;
+}
+h6{
+    text-align: right;
+    font-size: 12px;
+}
+.em-ip,
+.pa-ip{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    background-color: #fcfdfe;
+    border-radius: 3px;
+    border: 0.5px solid #eef0f3;
+    text-align: right;
+    padding-right: 10px;
+}
+.em-ip:hover,
+.em-ip:active,
+.pa-ip:hover,
+.pa-ip:active{
+    border-color: #00a6b6;
+}
+.submit-box{
+    width: 100%;
+    height: 40px;
+    background-color: #00a6b6;
+    border-radius: 3px;
+    padding: 7px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.submit{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+.submit:hover{
+    color: #fff;
+}
+.submit-box:hover{
+    background-color: #1c39bb;
+    box-shadow: 0 4px 7px #aaa;
+}
+.rm-box,
+.fp{
+    font-size: 12px;
+    display: inline-block;
+}
+.rm-box{
+    float: left;
+}
+.fp{
+    float: right;
+    text-decoration: none;
+    color: #00a6b6;
+}
+img{
+    float: left;
+}
