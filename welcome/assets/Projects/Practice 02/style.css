@@ -52,19 +52,15 @@ header{
     padding: 0 16px;
     margin-top: 30px;
 }
-section{
-    float: right;
-    width: 63%;
-    height: 100%;
-}
 .cantainer{
     background-color: #fff;
     border: solid 1px #cecece;
-    width: 86%;
+    width: 750px;
     min-height: 675px;
     margin-top: 40px;
     margin-bottom: 50px;
-    float: left;
+    margin-right: 6%;
+    float: right;
     text-align: right;
 }
 .helo-world{
@@ -94,7 +90,7 @@ button{
     height: 40px;
     font-family: "ISW_m";
 }
-section img{
+img{
     width: 20px;
     margin-left: 0;
 }
@@ -111,7 +107,7 @@ section img{
 .glyphicon-calendar{
     margin-right: 30px;
 }
-section div{
+div{
     display: inline-block;
 }
 .calendar-type{
@@ -124,18 +120,13 @@ section div{
 .comment{
     margin-right: 0;
 }
-aside{
-    float: left;
-    width: 35%;
-    height: 100%;
-}
 .sidebar{
-    width: 75.3%;
-    min-height: 600px;
+    width: 355px;
     background-color: #fff;
     border: solid 1px #cecece;
-    float: right;
+    float: left;
     margin-top: 40px;
+    margin-left: 8%;
     padding-bottom: 10px;
 }
 input{
@@ -210,4 +201,22 @@ span{
 }
 .tn{
     margin-right: 30px;
+}
+@media(max-width: 1000px){
+    .cantainer{
+        width: 100%;
+        margin: auto;
+        margin: 10px;
+        float: none;
+    }
+    .sidebar{
+        width: 100%;
+        margin: auto;
+        margin: 10px;
+        float: none;
+    }
+    #header{
+        width: 100%;
+        margin: 0;
+    }
 }
