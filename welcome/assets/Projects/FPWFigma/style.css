@@ -118,6 +118,7 @@ h6{
 @media (max-width: 1000px){
     .login-form{
         width: 100%;
+        padding: 80px 60px;
     }
     .image{
         width: 100%;
@@ -125,6 +126,6 @@ h6{
 }
 @media (max-width: 300px){
     .login-form{
-        padding: 30px 12px;
+        padding: 50px 30px;
     }
 }
