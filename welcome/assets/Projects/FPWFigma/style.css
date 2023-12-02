@@ -28,7 +28,7 @@
     padding: 100px 80px;
     float: right;
 }
-h3{
+.titr{
     font-size: 20px;
 }
 .wo, .sn{
@@ -112,6 +112,19 @@ h6{
     text-decoration: none;
     color: #00a6b6;
 }
-img{
+.image{
     float: left;
+}
+@media (max-width: 1000px){
+    .login-form{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+}
+@media (max-width: 300px){
+    .login-form{
+        padding: 30px 12px;
+    }
 }
