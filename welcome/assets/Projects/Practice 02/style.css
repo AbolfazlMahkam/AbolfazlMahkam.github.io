@@ -214,6 +214,7 @@ span{
         margin: auto;
         margin: 10px;
         float: none;
+        padding-bottom: 30px;
     }
     #header{
         width: 100%;
