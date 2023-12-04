@@ -202,7 +202,7 @@ span{
 .tn{
     margin-right: 30px;
 }
-@media(max-width: 1000px){
+@media(max-width: 1080px){
     .cantainer{
         width: 100%;
         margin: auto;
