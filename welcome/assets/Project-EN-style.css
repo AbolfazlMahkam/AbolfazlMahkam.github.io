@@ -118,4 +118,10 @@ a:hover{
     height: 95%;
     border-radius: 40px;
   }
+  .p{
+    font-size: 80px;
+  }
+  .p a{
+    height: 300px;
+  }
 }

@@ -115,4 +115,14 @@ a:hover{
     height: 95%;
     border-radius: 40px;
   }
+  .fa,
+  .en{
+    display: block;
+    margin: auto;
+    font-size: 120px;
+    height: 200px;
+    width: 300px;
+    padding: 40px 0;
+    margin-top: 600px;
+  }
 }

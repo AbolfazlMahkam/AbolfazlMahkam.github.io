@@ -110,4 +110,8 @@ a:hover{
     height: 95%;
     border-radius: 40px;
   }
+  .p a{
+    font-size: 80px;
+    height: 200px;
+  }
 }
