@@ -97,3 +97,17 @@ a:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: #203036;
 }
+@media(max-width: 1080px){
+  .html{
+    background-size: 100%;
+    background-image: url(img/Untitled-1.png);
+  }
+  .form{
+    padding: 5%;
+  }
+  .info{
+    width: 90%;
+    height: 95%;
+    border-radius: 40px;
+  }
+}

@@ -7,7 +7,7 @@
   transition-delay: 0.15s;
 }
 html{
-  background: url('img/363411.jpg');
+  background: url('img/481543.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -102,4 +102,18 @@ a{
 }
 a:hover{
   box-shadow: 0px 0px 10px #203036;
+}
+@media(max-width: 1080px){
+  .html{
+    background-size: 100%;
+    background-image: url(img/Untitled-1.png);
+  }
+  .form{
+    padding: 5%;
+  }
+  .info{
+    width: 90%;
+    height: 95%;
+    border-radius: 40px;
+  }
 }
