@@ -58,7 +58,7 @@ body{
     left: 12.5em;
     width: 15em;
     height: 15em;
-    animation: orbit 6s linear infinite;
+    animation: orbit 3s linear infinite;
 }
 .atarod::before{
     top: 1.9em;
@@ -72,7 +72,7 @@ body{
     left: 10em;
     width: 20em;
     height: 20em;
-    animation: orbit 8s linear infinite;
+    animation: orbit 7s linear infinite;
 }
 .zohre::before{
     top: 2.13em;
@@ -86,7 +86,7 @@ body{
     left: 7.5em;
     width: 25em;
     height: 25em;
-    animation: orbit 10s linear infinite;
+    animation: orbit 12s linear infinite;
 }
 .earth::before{
     top: 2.85em;
@@ -114,7 +114,7 @@ body{
     left: 5em;
     width: 30em;
     height: 30em;
-    animation: orbit 12s linear infinite;
+    animation: orbit 23s linear infinite;
 }
 .merikh::before{
     top: 3.85em;
@@ -128,7 +128,7 @@ body{
     left: 0.55em;
     width: 40em;
     height: 40em;
-    animation: orbit 14s linear infinite;
+    animation: orbit 142s linear infinite;
 }
 .moshtari::before{
     top: 3.2em;
@@ -142,7 +142,7 @@ body{
     left: -4em;
     width: 50em;
     height: 50em;
-    animation: orbit 16s linear infinite;
+    animation: orbit 254s linear infinite;
 
 }
 .zohal::before{
@@ -170,7 +170,7 @@ body{
     left: -6.8em;
     width: 56em;
     height: 56em;
-    animation: orbit 18s linear infinite;
+    animation: orbit 1009s linear infinite;
 
 }
 .oranus::before{
@@ -185,7 +185,7 @@ body{
     left: -9.3em;
     width: 61em;
     height: 61em;
-    animation: orbit 20s linear infinite;
+    animation: orbit 1979s linear infinite;
 
 }
 .nepton::before{
