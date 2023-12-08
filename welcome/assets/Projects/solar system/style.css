@@ -100,7 +100,7 @@ body{
     right: 2.05em;
     width: 3em;
     height: 3em;
-    animation: orbit 0.3s linear infinite;
+    animation: orbit 0.03s linear infinite;
 }
 .moon::before{
     top: 0.18em;
