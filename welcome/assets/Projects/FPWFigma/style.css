@@ -112,16 +112,10 @@ h6{
     text-decoration: none;
     color: #00a6b6;
 }
-.image{
-    float: left;
-}
 @media (max-width: 1000px){
     .login-form{
         width: 100%;
         padding: 80px 60px;
-    }
-    .image{
-        width: 100%;
     }
 }
 @media (max-width: 300px){
