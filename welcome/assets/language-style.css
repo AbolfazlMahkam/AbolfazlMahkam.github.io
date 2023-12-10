@@ -85,10 +85,9 @@ a{
   width: 200px;
   height: 80px;
   margin: 10px;
-  margin-top: 200px;
+  margin-top: 220px;
   display: inline-block;
   border-radius: 10px;
-  color: #203036;
   font-family: GL;
   font-size: 28px;
   padding: 18px 0;
@@ -98,9 +97,11 @@ a:hover{
 }
 .fa{
   font-family: AdArSh;
+  color: #203036;
 }
 .en{
   padding: 24px 0;
+  color: #b4b4b4;
 }
 @media(max-width: 1080px){
   .html{
@@ -124,5 +125,6 @@ a:hover{
     width: 300px;
     padding: 20px 0;
     margin-top: 300px;
+    color: #203036;
   }
 }
