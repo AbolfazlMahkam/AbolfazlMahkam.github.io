@@ -92,7 +92,7 @@ form{
 .location span{
   display: block;
 }
-a{
+.button{
   text-decoration: none;
   width: 120px;
   height: 50px;
@@ -103,8 +103,82 @@ a{
   font-family: DMSans-B;
   padding: 15px 0;
 }
-a:hover{
+.button:hover{
   box-shadow: 0px 0px 10px #203036;
+}
+:root{
+  --background: #2c2c2c;
+  --linkedin: #0077b5;
+  --twitter: #000000;
+  --email: #c5221f;
+  --telegram: #2aa2d5;
+  --eitaa: #f07c00;
+  --discord: #5865f2;
+}
+.background{
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+.social-media-buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.social-media-button{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+}
+.social-media-button:hover{
+  outline-offset: 3px;
+  transition: all 0.3s;
+}
+.social-media-button img{
+  transition: all 0.3s;
+  width: 35px;
+  height: 35px;
+}
+.social-media-button:hover img{
+  transform: scale(1.15);
+}
+.discord img{
+  width: 40px;
+  height: 40px;
+}
+.insta:hover{
+  background: radial-gradient(
+    circle at 30% 107%, #fdf497 0%,
+    #fdf497 5%, #fd5949 45%,
+    #d6249f 60%,#285aeb 90%
+  );
+}
+.github:hover{
+  background-color: var(--twitter);
+}
+.link:hover{
+  background-color: var(--linkedin);
+}
+.email:hover{
+  background-color: var(--email);
+}
+.X:hover{
+  background-color: var(--twitter);
+}
+.tel:hover{
+  background-color: var(--telegram);
+}
+.eitaa:hover{
+  background-color: var(--eitaa);
+}
+.discord:hover{
+  background-color: var(--discord);
 }
 @media(max-width: 1080px){
   .html{
