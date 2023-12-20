@@ -133,6 +133,10 @@ form{
   display: grid;
   place-items: center;
 }
+a{
+  max-width: 48px;
+  max-height: 48px;
+}
 .social-media-button:hover{
   outline-offset: 3px;
   transition: all 0.3s;
@@ -190,7 +194,7 @@ form{
     height: 95%;
     border-radius: 40px;
   }
-  a{
+  .button{
     width: 400px;
     height: 200px;
     font-size: 90px;
