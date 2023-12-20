@@ -197,16 +197,16 @@ a{
   .button{
     width: 400px;
     height: 200px;
-    font-size: 90px;
+    font-size: 20px;
   }
   .pe{
-    font-size: 80px;
+    font-size: 30px;
   }
   .location{
-    font-size: 60px;
+    font-size: 20px;
   }
   .name h1{
-    font-size: 90px;
+    font-size: 350px;
     font-weight: bolder;
   }
 }
