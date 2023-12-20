@@ -133,7 +133,7 @@ form{
   display: grid;
   place-items: center;
 }
-a{
+.dokme{
   max-width: 48px;
   max-height: 48px;
 }
