@@ -200,11 +200,10 @@ form{
   .button{
     width: 120px;
     height: 70px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .mt{
-    width: 200px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .location{
     font-size: 30px;
@@ -215,6 +214,9 @@ form{
     margin-bottom: 50px;
   }
   .name{
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+  }
+  .background{
+    padding: 10px 50px;
   }
 }

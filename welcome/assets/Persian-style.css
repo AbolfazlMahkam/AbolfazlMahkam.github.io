@@ -209,4 +209,10 @@ form{
     font-size: 45px;
     font-weight: bolder;
   }
+  .name{
+    margin-bottom: 30px;
+  }
+  .background{
+    padding: 10px 50px;
+  }
 }
