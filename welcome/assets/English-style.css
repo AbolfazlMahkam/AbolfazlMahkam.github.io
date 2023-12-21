@@ -200,16 +200,16 @@ form{
   .button{
     width: 400px;
     height: 200px;
-    font-size: 75px;
+    font-size: 30px;
   }
   .mt{
-    font-size: 70px;
+    font-size: 30px;
   }
   .location{
-    font-size: 60px;
+    font-size: 35px;
   }
   .name h1{
-    font-size: 90px;
+    font-size: 40px;
     font-weight: bolder;
     margin-bottom: 50px;
   }
