@@ -198,15 +198,16 @@ form{
     border-radius: 40px;
   }
   .button{
-    width: 400px;
-    height: 200px;
+    width: 120px;
+    height: 70px;
     font-size: 30px;
   }
   .mt{
+    width: 200px;
     font-size: 30px;
   }
   .location{
-    font-size: 35px;
+    font-size: 30px;
   }
   .name h1{
     font-size: 40px;
