@@ -50,24 +50,18 @@ img{
 }
 form{
   display: block;
-  text-align: center;
   width: 100%;
-  align-items: center;
-  padding: 5% 32.5%;
 }
 .info{
-  background: linear-gradient(135deg, rgba(225,255, 255, 0.1), rgba(255, 255, 255, 0));
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(10px);
+  backdrop-filter: brightness(80%) blur(5px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border: 1px solid rgba(225,255, 255, 0.18);
   border-radius: 5%;
-  position: absolute;
   display: block;
-  position: fixed;
   text-align: center;
-  width: 35%;
-  height: 80%;
+  width: 500px;
+  height: 550px;
+  margin: 50px auto;
 }
 .avatar{
   display: block;
@@ -118,7 +112,7 @@ form{
 .background{
   display: grid;
   place-items: center;
-  padding: 10px;
+  padding: 10px 50px;
 }
 .social-media-buttons{
   display: flex;
