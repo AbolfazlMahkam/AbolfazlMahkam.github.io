@@ -58,7 +58,8 @@ form{
   text-align: center;
   width: 35%;
   height: 80%;
-  overflow: auto;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 .p{
   padding: 30px;
