@@ -5,9 +5,9 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="bg-black">
       <div className="flex justify-center items-center w-full h-dvh background max-[1100px]:p-5">
-        <div className="p-10 bg-black backdrop-blur-md bg-opacity-30 rounded-[60px] border border-gray-600 flex flex-col justify-center items-center animation shadow-2xl shadow-black max-[1100px]:h-full max-[1100px]:justify-between">
+        <div className="p-10 bg-black backdrop-blur-[5px] bg-opacity-30 rounded-[60px] border border-gray-600 flex flex-col justify-center items-center animation shadow-2xl shadow-black max-[1100px]:h-full max-[1100px]:justify-between">
           <div className="border-2 rounded-full p-2 hover:p-3 duration-300 animation">
-            <img className="w-40 h-40 rounded-full" src="/img/me.jpg" />
+            <img className="w-40 h-40 rounded-full hover:w-44 hover:h-44 duration-300" src="/img/me.jpg" />
           </div>
           <div className="text-center pt-10">
             <h1 className="text-3xl font-bold  text-[#16B6BB] mb-5 animation2">

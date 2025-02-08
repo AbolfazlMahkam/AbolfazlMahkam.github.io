@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   pathPrefix: "/abolfazlmahkam.github.io",
   siteMetadata: {
-    title: `My Gatsby Site`,
+    title: `Abolfazl Mahkam`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
