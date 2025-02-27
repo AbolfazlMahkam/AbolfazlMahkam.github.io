@@ -10,7 +10,9 @@ const IndexPage: React.FC<PageProps> = (props) => {
       <main>
         <BrowserRouter>
           <Routes>
+            {/* Home Page */}
             <Route path="/" element={<Home {...props} />} />
+            {/* Resume Page */}
             <Route path="/resume" element={<Resume {...props} />} />
           </Routes>
         </BrowserRouter>
