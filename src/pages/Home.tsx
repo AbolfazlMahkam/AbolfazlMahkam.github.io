@@ -1,8 +1,16 @@
-import React from "react";
+import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import { NavLink } from "react-router";
 
-const Home: React.FC<PageProps> = () => {
+interface HomeProps extends PageProps {
+  setShowHome: React.Dispatch<React.SetStateAction<boolean>>;
+  setShowResume: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Home: React.FC<HomeProps> = ({
+  setShowHome,
+  setShowResume,
+  ...props
+}) => {
   return (
     <main className="bg-black">
       <div className="flex justify-center items-center w-full h-dvh background max-[1100px]:p-5">
@@ -23,7 +31,7 @@ const Home: React.FC<PageProps> = () => {
             <p className="text-white">Qom, Islamic Republic of Iran</p>
           </div>
 
-          <div>
+          {/* <div>
             <NavLink
               to={"/resume"}
               className="flex justify-center items-center mt-10 px-5 py-3 duration-300 rounded-lg shadowHover"
@@ -32,6 +40,19 @@ const Home: React.FC<PageProps> = () => {
                 Resume
               </span>
             </NavLink>
+          </div> */}
+          <div>
+            <button
+              className="flex justify-center items-center mt-10 px-5 py-3 duration-300 rounded-lg shadowHover"
+              onClick={() => {
+                setShowHome(false);
+                setShowResume(true);
+              }}
+            >
+              <span className="text-[#EC3710] font-semibold text-lg">
+                Resume
+              </span>
+            </button>
           </div>
 
           <div>
@@ -115,5 +136,3 @@ const Home: React.FC<PageProps> = () => {
 };
 
 export default Home;
-
-export const Head: HeadFC = () => <title>Home Page</title>;

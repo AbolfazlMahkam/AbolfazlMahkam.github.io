@@ -1,8 +1,16 @@
-// https://drive.google.com/file/d/1WDTe1JzC5Mcev3UWkZwhOLBvC8-a0paI/view?usp=sharing
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
-const Resume: React.FC<PageProps> = () => {
+interface ResumeProps extends PageProps {
+  setShowHome: React.Dispatch<React.SetStateAction<boolean>>;
+  setShowResume: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Resume: React.FC<ResumeProps> = ({
+  setShowHome,
+  setShowResume,
+  ...props
+}) => {
   return (
     <main>
       <div className="absolute left-2/3 top-5 w-36 max-[1100px]:left-5">
@@ -14,6 +22,15 @@ const Resume: React.FC<PageProps> = () => {
           Download PDF!
         </a>
       </div>
+      <button
+        className="absolute top-0 left-0 p-1 bg-red-500 rounded-md duration-300 m-2 hover:bg-red-700 hover:shadow-xl"
+        onClick={() => {
+          setShowHome(true);
+          setShowResume(false);
+        }}
+      >
+        <img className="w-5" src="/img/back.png" />
+      </button>
       <div className="block font-sans">
         <header>
           <div>
@@ -86,9 +103,8 @@ const Resume: React.FC<PageProps> = () => {
                   <li className="py-1 px-5">
                     Full proficiency in HTML, CSS, JavaScript and TypeScript.
                   </li>
-                  <li className="py-1 px-5">
-                    Proficiency ReactJS, NextJS, VueJS and NuxtJS.
-                  </li>
+                  <li className="py-1 px-5">Proficiency ReactJS and NextJS.</li>
+                  <li className="py-1 px-5">Proficiency VueJS and NuxtJS.</li>
                   <li className="py-1 px-5">
                     Skilled in TailwindCSS, Bootstrap, and responsive design
                     principles.
@@ -314,9 +330,8 @@ const Resume: React.FC<PageProps> = () => {
                   <li className="py-1 px-5">
                     Full proficiency in HTML, CSS, JavaScript and TypeScript.
                   </li>
-                  <li className="py-1 px-5">
-                    Proficiency ReactJS, NextJS, VueJS and NuxtJS.
-                  </li>
+                  <li className="py-1 px-5">Proficiency ReactJS and NextJS.</li>
+                  <li className="py-1 px-5">Proficiency VueJS and NuxtJS.</li>
                   <li className="py-1 px-5">
                     Skilled in TailwindCSS, Bootstrap, and responsive design
                     principles.
@@ -364,5 +379,3 @@ const Resume: React.FC<PageProps> = () => {
 };
 
 export default Resume;
-
-export const Head: HeadFC = () => <title>Resume</title>;
