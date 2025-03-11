@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.17.14",
+    "antd": "^5.24.3",
     "framer-motion": "^12.4.1",
     "gatsby": "^5.14.1",
     "react": "^18.2.0",

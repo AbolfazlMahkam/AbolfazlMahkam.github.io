@@ -20,6 +20,16 @@
 .shadowHover:hover {
   box-shadow: 1px 1px 10px #000;
 }
+.custom-spin .ant-spin-dot-item {
+  background-color: red;
+  border-color: red;
+  stroke: red;
+  outline: red;
+}
+.custom-spin .ant-spin-dot {
+  border-top-color: red;
+}
+
 @keyframes a {
   0% {
     border-color: #c01371;

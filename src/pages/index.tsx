@@ -1,27 +1,42 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Home from "./Home";
-import Resume from "./Resume";
+import { Flex, Spin } from "antd";
+import "../styles/global.css";
 
 const IndexPage: React.FC<PageProps> = (props) => {
-  const [showHome, setShowHome] = React.useState<boolean>(true);
-  const [showResume, setShowResume] = React.useState<boolean>(false);
+  const [loading, setLoading] = React.useState(true);
+  const [percent, setPercent] = React.useState(-50);
+  let timerId: ReturnType<typeof setTimeout>;
+
+  React.useEffect(() => {
+    timerId = setTimeout(() => {
+      setPercent((v) => {
+        const nextPercent = v + 5;
+        return nextPercent > 150 ? -50 : nextPercent;
+      });
+    }, 100);
+    return () => clearTimeout(timerId);
+  }, [percent]);
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+  }, []);
+
   return (
     <>
-      <main>
-        {showHome && (
-          <Home
-            {...props}
-            setShowHome={setShowHome}
-            setShowResume={setShowResume}
-          />
-        )}
-        {showResume && (
-          <Resume
-            {...props}
-            setShowHome={setShowHome}
-            setShowResume={setShowResume}
-          />
+      <main className="bg-black">
+        {loading ? (
+          <Flex align="center" justify="center" style={{ height: "100vh" }}>
+            <Spin
+              size="large"
+              className="custom-spin ant-spin-dot-item ant-spin-dot"
+            />
+          </Flex>
+        ) : (
+          <Home {...props} />
         )}
       </main>
     </>
@@ -30,4 +45,4 @@ const IndexPage: React.FC<PageProps> = (props) => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Abolfazl Mahkam</title>;
+export const Head: HeadFC = () => <title>Home</title>;
