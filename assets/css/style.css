@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.background {
+  background-image: url("../img/backgruond.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shadowHover:hover {
+  box-shadow: 1px 1px 10px #000;
+}
+.custom-spin .ant-spin-dot-item {
+  background-color: red;
+  border-color: red;
+  stroke: red;
+  outline: red;
+}
+.custom-spin .ant-spin-dot {
+  border-top-color: red;
+}
+
+.card {
+  background: linear-gradient(45deg, #00000090, #00000050);
+}
+
+@keyframes a {
+  0% {
+    border-color: #c01371;
+  }
+  25% {
+    border-color: #eb370f;
+  }
+  50% {
+    border-color: #fff;
+  }
+  75% {
+    border-color: #ad79c3;
+  }
+  100% {
+    border-color: #c01371;
+  }
+}
+@keyframes c {
+  0% {
+    color: #c01371;
+  }
+  25% {
+    color: #eb370f;
+  }
+  50% {
+    color: #fff;
+  }
+  75% {
+    color: #ad79c3;
+  }
+  100% {
+    color: #c01371;
+  }
+}
+.animation {
+  animation-name: a;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.animation2 {
+  animation-name: c;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+:root {
+  --background: #2c2c2c;
+  --linkedin: #0077b5;
+  --twitter: #000000;
+  --email: #c5221f;
+  --telegram: #2aa2d5;
+  --eitaa: #f07c00;
+  --discord: #5865f2;
+}
+@keyframes b {
+  0% {
+    outline-color: #c01371;
+  }
+  25% {
+    outline-color: #eb370f;
+  }
+  50% {
+    outline-color: #fff;
+  }
+  75% {
+    outline-color: #ad79c3;
+  }
+  100% {
+    outline-color: #c01371;
+  }
+}
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.social-media-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  animation-name: b;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+}
+dokme {
+  max-width: 48px;
+  max-height: 48px;
+}
+.social-media-button:hover {
+  outline-offset: 3px;
+  transition: all 0.3s;
+}
+.social-media-button img {
+  transition: all 0.3s;
+  width: 35px;
+  height: 35px;
+}
+.social-media-button:hover img {
+  transform: scale(1.15);
+}
+.discord img {
+  width: 40px;
+  height: 40px;
+}
+.insta:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.github:hover {
+  background-color: var(--twitter);
+}
+.link:hover {
+  background-color: var(--linkedin);
+}
+.email:hover {
+  background-color: var(--email);
+}
+.X:hover {
+  background-color: var(--twitter);
+}
+.tel:hover {
+  background-color: var(--telegram);
+}
+.eitaa:hover {
+  background-color: var(--eitaa);
+}
+.discord:hover {
+  background-color: var(--discord);
+}
